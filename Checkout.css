@@ -1,0 +1,139 @@
+.general-body-container{
+    width: 80%;
+    margin: auto;
+}
+/* .display-flex-checkout{
+    display: flex;
+} */
+
+@media (min-width: 40em){
+   
+    .display-flex-checkout{
+        display: flex;
+        }
+    
+    
+   } 
+
+
+
+.form-container{
+    width: 50%;
+}
+@media (max-width: 40em){
+    .form-container{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
+
+.First-link{
+    color: rgb(173, 169, 169);
+    margin-right: 7px;
+}
+.Specific-page{
+    color: black;
+}
+nav a{
+    text-decoration: none;
+}
+.nav-link-container{
+    margin-bottom: 40px;
+}
+.billing-adress-as-header{
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+.input-holder{
+    padding: 7px;
+    width:80%;
+    font-size: 17px;
+    border: none;
+    outline-width:0px;
+    background-color: rgb(250, 246, 246);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.input-holder:focus{
+    border: 1px solid green;
+}
+.Second-instablog{
+    width: 48%;
+}
+@media (max-width: 50em){
+    .Second-instablog{
+        width: 100%;
+    }
+}
+
+.router-brand-on-checkout{
+    width: 30px;
+    margin-right: 30px;
+}
+.first-divisional-sector{
+    margin-bottom: 20px;
+    /* display: flex; */
+    /* justify-content: space-between; */
+
+}
+.amount-of-checklist-item{
+    float: right;
+}
+.sub-total-of-package{
+    float: right;
+}
+.contanier-for-sub-total{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+hr{
+    margin-top: -15px;
+}
+
+.display-Flex-master-card{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+.checkbox-input{
+    margin-bottom: 20px;
+}
+
+.master-card-logo{
+    width: 150px;
+}
+
+.button-holder{
+    margin-bottom: 20px;
+}
+.coupon-button{
+    width: 200px;
+    padding: 15px;
+    border: 1px solid green;
+    cursor:pointer;
+    border-radius: 10px;
+    background: none;
+}
+.aplly-button-holder{
+    width: 100px;
+    border: none;
+    padding: 15px;
+    cursor:pointer;
+    border-radius: 10px;
+    float: right;
+    background-color: blueviolet;
+}
+.process-button-to-checkout{
+    width: 350px;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: blue;
+    cursor: pointer;
+}
+
+
+
+
+
